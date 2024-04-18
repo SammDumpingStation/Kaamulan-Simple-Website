@@ -1,0 +1,75 @@
+article {
+  gap: 100px;
+}
+
+section,
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+section {
+  gap: 50px;
+}
+
+p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  min-width: 65ch;
+  max-width: 70ch;
+  padding-left: 3em;
+}
+
+.tips-section {
+  margin-bottom: 30px;
+}
+
+.title-section {
+  font-size: 3.4375rem;
+  font-weight: 900;
+  margin-bottom: 80px;
+}
+
+.title-desc,
+.do-dont-div p {
+  color: rgba(0, 0, 0, 0.4);
+  padding: 0;
+  padding-left: 10px;
+  border-left: 10px solid #ffc753;
+}
+
+.desc-title {
+  font-size: 1.375rem;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+
+.do-dont-title {
+  font-size: 55px;
+  font-weight: 700;
+  min-width: 15ch;
+  max-width: 20ch;
+  margin-bottom: 80px;
+}
+
+.do-donts {
+  margin-top: 1.875rem;
+  font-size: 2.1875rem;
+  font-weight: 500;
+  border-bottom: 10px solid #c90d25;
+}
+
+.conclusion-title {
+  font-size: 55px;
+  font-weight: 700;
+  min-width: 15ch;
+  max-width: 20ch;
+  margin-bottom: 30px;
+}
+
+.conclusion-section p {
+  padding: 0;
+  text-align: center;
+}
