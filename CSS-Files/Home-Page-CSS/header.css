@@ -1,0 +1,38 @@
+header {
+  position: fixed;
+  top: 1px;
+}
+
+/* nav {
+} */
+
+nav ul {
+  background-color: white;
+  height: 60px;
+  width: 626px;
+  border-radius: 48px;
+  box-shadow: 0 5px 5px rgba(10, 10, 10, 0.3);
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.15s, background-color 0.3s;
+  border-radius: 40px;
+  padding: 0.8em 1.2em;
+}
+
+#home {
+
+  color: #fff;
+  background-color: #e87070;
+}
+
+nav ul li a:hover {
+  color: #fff;
+  background-color: #e87070;
+}
