@@ -1,0 +1,60 @@
+section {
+  border: 1px solid red;
+}
+
+/* Landing Page First Section CSS */
+
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 120px;
+}
+
+.landing-page-title {
+  display: inline-block;
+  font-size: 6.25rem;
+  text-align: center;
+  font-weight: 900;
+  width: min-content;
+}
+
+.landing-page-desc {
+  display: inline-block;
+  font-weight: 300;
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 30px;
+  width: 45ch;
+}
+
+.homepage-banner {
+  margin-top: 50px;
+}
+
+/* Landing Page 2nd Section CSS */
+.under-landing {
+  width: 100%;
+  height: 902px;
+  padding: 10.75rem 6.25rem;
+  display: flex;
+}
+
+.part {
+  flex: 1 1 100%;
+  border: 1px solid green;
+}
+
+.content {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+}
+
+.p-desc {
+  display: inline-block;
+  width: 25ch;
+  line-height: 23px;
+}
