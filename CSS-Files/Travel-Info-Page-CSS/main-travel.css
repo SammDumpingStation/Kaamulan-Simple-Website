@@ -61,15 +61,20 @@ p {
   border-bottom: 10px solid #c90d25;
 }
 
+.conclusion-section {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .conclusion-title {
   font-size: 55px;
   font-weight: 700;
   min-width: 15ch;
   max-width: 20ch;
-  margin-bottom: 30px;
+  /* margin-bottom: 0px; */
 }
 
 .conclusion-section p {
   padding: 0;
-  text-align: center;
 }
