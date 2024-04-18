@@ -56,6 +56,10 @@ main {
   align-items: center;
 }
 
-.inline-block-span {
-  display: inline-block;
+p {
+  line-height: 2.1875rem;
+}
+
+.block-span {
+  display: block;
 }
