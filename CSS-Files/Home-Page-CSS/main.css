@@ -1,5 +1,28 @@
 /* Landing Page First Section CSS */
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+button {
+  margin-top: 40px;
+  max-width: fit-content;
+  padding: 0.75em 1.5em;
+  font-size: 1.25rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 48px;
+  cursor: pointer;
+}
+
 .landing-page {
   display: flex;
   flex-direction: column;
@@ -33,7 +56,8 @@
 /* Landing Page 2nd Section CSS */
 .under-landing {
   width: 100vw;
-  height: 902px;
+  height: 100vh;
+  max-height: 902px;
   padding: 10.75rem 6.25rem;
   display: flex;
 }
@@ -90,3 +114,52 @@
   color: #292732;
 }
 
+/* Last Section css */
+.last-section {
+  margin-bottom: 1000px;
+
+  margin-top: 300px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffc753;
+  width: 100%;
+  max-width: 1080px;
+  min-height: 715px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  border-radius: 55px;
+  position: relative;
+}
+
+.last-section-img {
+  position: absolute;
+  top: -200px;
+}
+
+.last-section-title {
+  font-size: 6.25rem;
+}
+
+.under {
+  display: block;
+}
+
+.website-word {
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.last-desc {
+  font-size: 1.375rem;
+  font-weight: 300;
+}
+
+.meet-button {
+  background-color: #292732;
+  color: #faf4f4;
+  border: 3px solid #faf4f4;
+}
