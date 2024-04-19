@@ -2,12 +2,12 @@ main {
   gap: 80px;
 }
 
-img {  
+main img {  
   width: 100%;
   margin-block: 20px;
 }
 
-section {
+main section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,7 +15,7 @@ section {
   gap: 30px;
 }
 
-p {
+main section p {
   font-size: 1.25rem;
   font-weight: 300;
   min-width: 65ch;

@@ -5,17 +5,6 @@ h2 {
   font-weight: 900;
 }
 
-button {
-  margin-top: 40px;
-  max-width: fit-content;
-  padding: 0.75em 1.5em;
-  font-size: 1.25rem;
-  font-weight: 700;
-  border: none;
-  border-radius: 48px;
-  cursor: pointer;
-}
-
 .landing-page {
   display: flex;
   flex-direction: column;

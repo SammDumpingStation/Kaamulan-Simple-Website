@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   letter-spacing: 1px;
+  border: 1px solid red;
 }
 
 .roboto-light {
@@ -56,6 +57,17 @@ article {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+button {
+  margin-top: 40px;
+  max-width: fit-content;
+  padding: 0.75em 1.5em;
+  font-size: 1.25rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 48px;
+  cursor: pointer;
 }
 
 a {
