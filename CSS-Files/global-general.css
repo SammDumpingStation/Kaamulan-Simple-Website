@@ -40,6 +40,7 @@
 html {
   font-family: "Roboto";
   background-color: #f7f4f4;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -67,6 +68,30 @@ button {
   border: none;
   border-radius: 48px;
   cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 0.3s;
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffc753; 
+  transition: transform 0.3s;
+  z-index: -1;
+}
+
+button:hover::before {
+  transform: translateY(-100%); 
+}
+
+button:hover {
+  color: #000;
 }
 
 a {
