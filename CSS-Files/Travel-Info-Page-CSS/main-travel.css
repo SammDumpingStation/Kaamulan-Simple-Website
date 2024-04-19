@@ -2,19 +2,19 @@ article {
   gap: 100px;
 }
 
-section,
-div {
+main section,
+main section div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
 
-section {
+main section {
   gap: 50px;
 }
 
-p {
+main section p {
   font-size: 1.25rem;
   font-weight: 300;
   min-width: 65ch;
