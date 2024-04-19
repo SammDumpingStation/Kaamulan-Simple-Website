@@ -48,6 +48,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
   justify-content: center;
 }
 
@@ -103,6 +104,25 @@ p {
   line-height: 2.1875rem;
 }
 
+.up-arrow, .down-arrow {
+  z-index: 999;
+  width: 80px;
+  object-fit: cover;
+  object-position: center;
+  position: fixed;
+  cursor: pointer;
+  bottom: 20px;
+}
+
+.up-arrow {
+  right: 20px;
+}
+
 .block-span {
   display: block;
+}
+
+.down-arrow {
+  left: 20px;
+  transform: rotateX(180deg);
 }
