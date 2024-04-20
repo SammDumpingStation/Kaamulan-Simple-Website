@@ -31,18 +31,20 @@ main {
 
 .profile-container {
   width: 25vw;
+  min-height: 55vh;
   height: 65vh;
+  max-height: 80vh;
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   gap: 1.5rem;
   padding-bottom: 20px;
 }
 
 .profile-img {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   object-fit: cover;
   object-position: top;
   width: 100%;
