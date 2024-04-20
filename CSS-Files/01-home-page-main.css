@@ -5,6 +5,18 @@ main h2 {
   font-weight: 900;
 }
 
+img {
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.blur-load {
+  background-size: cover;
+  background-position: center;
+}
+
+
 .landing-page {
   display: flex;
   flex-direction: column;
@@ -27,19 +39,27 @@ main h2 {
   text-align: center;
   line-height: 30px;
   width: 45ch;
-}
-
-.homepage-banner {
   margin-top: 50px;
 }
 
+.homepage-banner {
+  min-width: 100%;
+  min-height: 100%;
+}
+
 /* Landing Page 2nd Section CSS */
+
+.background-img, .highlights-img, .travel-img, .last-section-img {
+  max-width: 505px;
+}
+
 .under-landing {
   width: 100vw;
   height: 100vh;
-  max-height: 902px;
   padding: 10.75rem 6.25rem;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .part {
