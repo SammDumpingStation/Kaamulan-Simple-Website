@@ -7,6 +7,23 @@
   letter-spacing: 1px;
 }
 
+.scroll-watcher {
+  height: 6px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: grey;
+  width: 100%;
+  scale: 0 1;
+  transform-origin: left;
+  animation: scroll linear;
+  animation-timeline: scroll();
+}
+
+@keyframes scroll {
+  to  { scale: 1 1;}
+}
+
 .roboto-light {
   font-family: "Roboto", sans-serif;
   font-weight: 300;

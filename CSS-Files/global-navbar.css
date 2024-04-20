@@ -1,6 +1,6 @@
 header {
   position: fixed;
-  top: 10px;
+  top: 12px;
   z-index: 999;
 }
 
@@ -17,9 +17,12 @@ nav ul {
   padding-inline: 10px;
 }
 
-nav ul li a {
+nav ul li {
   border-radius: 30px;
   padding: 0.8em 1.4em;
+}
+
+nav ul li a {
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -28,16 +31,25 @@ nav ul li a {
 nav ul li a::before {
   content: "";
   position: absolute;
-  bottom: 7px;
-  left: 50%; /* Start from the center */
-  transform: translateX(-50%); /* Adjust to center horizontally */
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
   width: 0;
   height: 5px;
-  background-color: #E87070; /* Red with transparency */
-  transition: width 0.15s ease-in; /* Smooth transition for width and left */
-  z-index: -1; /* Ensure the overlay is below the text */
+  background-color: #E87070;
+  transition: width 0.15s ease-in; 
+  z-index: -1; 
 }
 
 nav ul li a:hover::before {
-  width: 70%; /* Expand the width to cover the text plus some padding */
+  width: 100%;
+}
+
+#about-us, #background, #highlights, #home, #travel-info {
+  color: #fff;
+  background-color: #e87070;
+}
+
+#about-us a ,#background a, #highlights a, #home a, #travel-info a{
+  color: #fff;
 }
