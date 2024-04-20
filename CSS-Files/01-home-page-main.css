@@ -5,7 +5,7 @@ main h2 {
   font-weight: 900;
 }
 
-img {
+section img {
   width: 100%;
   object-position: center;
   object-fit: cover;
