@@ -117,9 +117,13 @@ input {
 
 .footer-input-container {
   display: flex;
-  justify-content: center;
+
+  justify-content: space-between;
   align-items: center;
-  width: fit-content;
+  /* width: fit-content; */
+  min-width: 55%;
+  width: 75%;
+  max-width: 85%;
   background-color: #4a4b52;
   margin-top: 20px;
   padding: 10px;
@@ -128,7 +132,8 @@ input {
 
 .footer-input-email {
   border: none;
-  font-size: 18px;
+  width: 100%;
+  font-size: 16px;
   font-weight: 300;
   background-color: transparent;
   color: white;
