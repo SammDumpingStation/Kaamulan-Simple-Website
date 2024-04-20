@@ -18,6 +18,9 @@ nav ul {
 }
 
 nav ul li {
+  position: relative;
+  width: fit-content;
+  overflow: hidden;
   border-radius: 30px;
   padding: 0.8em 1.4em;
 }
@@ -45,9 +48,32 @@ nav ul li a:hover::before {
   width: 100%;
 }
 
+#about-us::before, #background::before, #highlights::before, #home::before, #travel-info::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 100%;
+  background-color: #E87070;
+  transition: width 0.15s ease-in; 
+  z-index: 1; 
+  animation: left-to-right 0.5s ease-in forwards;
+}
+
+@keyframes left-to-right {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
 #about-us, #background, #highlights, #home, #travel-info {
   color: #fff;
-  background-color: #e87070;
+  /* background-color: #e87070; */
 }
 
 #about-us a ,#background a, #highlights a, #home a, #travel-info a{
