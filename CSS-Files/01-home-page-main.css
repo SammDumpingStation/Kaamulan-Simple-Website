@@ -55,7 +55,7 @@ section img {
 
 .under-landing {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   padding: 10.75rem 6.25rem;
   display: flex;
   justify-content: center;
