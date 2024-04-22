@@ -14,7 +14,7 @@ main section div {
 }
 
 main section {
-  gap: 50px;
+  gap: 3.125rem;
 }
 
 main section p {
@@ -32,14 +32,14 @@ main section p {
 .title-section {
   font-size: var(--px55-font-main-title);
   font-weight: 900;
-  margin-bottom: 80px;
+  margin-bottom: 5rem;
 }
 
 .title-desc,
 .do-dont-div p {
   color: rgba(0, 0, 0, 0.4);
   padding: 0;
-  padding-left: 10px;
+  padding-left: 0.625rem;
   border-left: 10px solid var(--yellow-kaamulan-bg);
 }
 
@@ -54,7 +54,7 @@ main section p {
   font-weight: 700;
   min-width: 15ch;
   max-width: 20ch;
-  margin-bottom: 80px;
+  margin-bottom: 5rem;
 }
 
 .do-donts {

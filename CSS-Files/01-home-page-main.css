@@ -28,8 +28,8 @@ section img {
 }
 
 .landing-page {
-  gap: 30px;
-  margin-bottom: 120px;
+  gap: 1.875rem;
+  margin-bottom: 7.5rem;
 }
 
 .landing-page-title {
@@ -43,7 +43,7 @@ section img {
   font-weight: 300;
   font-size: 1.3rem;
   text-align: center;
-  line-height: 30px;
+  line-height: 1.875rem;
   width: 45ch;
   margin-top: 50px;
 }
@@ -75,7 +75,7 @@ section img {
 
 .content {
   align-items: flex-start;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 .p-desc {
@@ -118,15 +118,15 @@ section img {
 
 /* Last Section css */
 .last-section {
-  margin-top: 300px;
-  padding-top: 50px;
+  margin-top: 18.75rem;
+  padding-top: 3.125rem;
   background-color: var(--yellow-kaamulan-bg);
   width: 100%;
   max-width: 1080px;
   min-height: 715px;
   text-align: center;
-  gap: 20px;
-  border-radius: 55px;
+  gap: 1.25rem;
+  border-radius: 3.4375rem;
   position: relative;
 }
 

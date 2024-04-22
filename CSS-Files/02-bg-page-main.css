@@ -2,12 +2,12 @@
 @import url(fonts.css);
 
 main {
-  gap: 80px;
+  gap: 5rem;
 }
 
 main img {  
   width: 100%;
-  margin-block: 20px;
+  margin-block: 1.25rem;
 }
 
 main section {
@@ -15,7 +15,7 @@ main section {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 30px;
+  gap: 1.875rem;
 }
 
 main section p {
@@ -26,11 +26,11 @@ main section p {
 }
 
 .section1 {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .title-section {
-  gap: 50px;
+  gap: 3.125rem;
 }
 
 .bg-title {
@@ -40,7 +40,7 @@ main section p {
 
 .title-desc {
   border-left: 10px solid var(--yellow-kaamulan-bg);
-  padding-left: 10px;
+  padding-left: 0.625rem;
   color: rgba(0, 0, 0, 0.4);
 }
 
