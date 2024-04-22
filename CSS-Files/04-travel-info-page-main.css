@@ -14,7 +14,7 @@ main section div {
 }
 
 main section {
-  gap: 3.125rem;
+  gap: var(--px55-font-main-title);
 }
 
 main section p {

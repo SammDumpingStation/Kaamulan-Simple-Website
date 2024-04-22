@@ -9,7 +9,7 @@ main section {
 }
 
 main section p {
-  font-size: 1.25rem;
+  font-size: var(--px20-font-paragraph);
   font-weight: 300;
   min-width: 65ch;
   max-width: 70ch;
@@ -23,12 +23,12 @@ main img {
 
 main h3 {
   font-weight: 500;
-  font-size: 1.375rem;
+  font-size: var(--px20-font-paragraph);
   margin-bottom: 0.625rem;
 }
 
 .title-section {
-  gap: 3.125rem;
+  gap: var( --px55-font-main-title);
 }
 
 .title-section p {
@@ -38,13 +38,13 @@ main h3 {
 }
 
 .title {
-  font-size: 3.4375rem;
+  font-size: var(--px55-font-main-title);
   font-weight: 900;
 }
 
 .main-title {
-  font-size: 2.1875rem;
+  font-size: var(--px35-font-2nd-title);
   font-weight: 700;
   padding-top: 5rem;
-  padding-bottom: 3.125rem;
+  padding-bottom: var(--px55-font-main-title);
 }

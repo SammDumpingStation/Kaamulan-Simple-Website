@@ -7,7 +7,7 @@ main {
 
 main img {  
   width: 100%;
-  margin-block: 1.25rem;
+  margin-block: var(--px20-font-paragraph);
 }
 
 main section {
@@ -15,7 +15,7 @@ main section {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 1.875rem;
+  gap: var(--px35-font-2nd-title);
 }
 
 main section p {
@@ -25,11 +25,11 @@ main section p {
 }
 
 .section1 {
-  margin-top: 1.25rem;
+  margin-top: var(--px20-font-paragraph);
 }
 
 .title-section {
-  gap: 3.125rem;
+  gap: var(--px55-font-main-title);
 }
 
 .bg-title {
@@ -44,6 +44,6 @@ main section p {
 }
 
 .content-title {
-  font-size: 2.1875rem;
+  font-size: var(--px35-font-2nd-title);
   font-weight: 700;
 }

@@ -1,6 +1,11 @@
 @import url(root.css);
 @import url(fonts.css);
 
+
+section {
+  border: 1px solid red;
+}
+
 main h2 {
   font-size: 2.5rem;
   font-weight: 900;
@@ -28,12 +33,12 @@ section img {
 }
 
 .landing-page {
-  gap: 20px;
+  gap: var(--px20-font-paragraph);
   margin-bottom: 7.5rem;
 }
 
 .landing-page-title {
-  font-size: 100px;
+  font-size: clamp(4.375rem, 6.25vw, 7.5rem);
   text-align: center;
   font-weight: 900;
   width: min-content;
@@ -62,13 +67,16 @@ section img {
 
 .under-landing {
   width: 100vw;
-  min-height: 100vh;
+  height: min(100vh, 50vh);
   padding: 10.75rem 6.25rem;
   flex-direction: row;
 }
 
 .part {
   flex: 1 1 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .content {
@@ -101,6 +109,7 @@ section img {
   background-color: var(--black-kaamulan-bg);
 }
 
+
 .second-section-button,
 .third-section-title,
 .third-section-desc,
@@ -132,7 +141,7 @@ section img {
 }
 
 .last-section-title {
-  font-size: 6.25rem;
+  font-size: clamp(4.375rem, 6.25vw, 7.5rem);
 }
 
 .website-word {
@@ -144,3 +153,6 @@ section img {
 .meet-button {
   border: 3px solid var(--white-kaamulan-bg);
 }
+
+.last-desc {
+text-align: center;}
