@@ -34,7 +34,7 @@ main h3 {
 .title-section p {
   padding-left: 10px;
   color: rgba(0, 0, 0, 0.4);
-  border-left: 10px solid #ffc753;
+  border-left: 10px solid var(--yellow-kaamulan-bg);
 }
 
 .title {
