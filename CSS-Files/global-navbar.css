@@ -40,7 +40,7 @@ nav ul li a::before {
   width: 0;
   height: 5px;
   background-color: #E87070;
-  transition: width 0.15s ease-in; 
+  transition: width 0.3s ease-in; 
   z-index: -1; 
 }
 
@@ -59,7 +59,7 @@ nav ul li a:hover::before {
   background-color: #E87070;
   transition: width 0.15s ease-in; 
   z-index: 1; 
-  animation: left-to-right 0.5s ease-in forwards;
+  animation: left-to-right 0.3s ease-in forwards;
 }
 
 @keyframes left-to-right {
