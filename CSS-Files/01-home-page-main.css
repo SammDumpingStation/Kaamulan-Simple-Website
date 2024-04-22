@@ -17,12 +17,17 @@ section img {
   background-position: center;
 }
 
-
-.landing-page {
+.landing-page,
+.under-landing,
+.content,
+.last-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.landing-page {
   gap: 30px;
   margin-bottom: 120px;
 }
@@ -50,7 +55,10 @@ section img {
 
 /* Landing Page 2nd Section CSS */
 
-.background-img, .highlights-img, .travel-img, .last-section-img {
+.background-img,
+.highlights-img,
+.travel-img,
+.last-section-img {
   max-width: 505px;
 }
 
@@ -58,9 +66,7 @@ section img {
   width: 100vw;
   min-height: 100vh;
   padding: 10.75rem 6.25rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
 }
 
 .part {
@@ -68,9 +74,7 @@ section img {
 }
 
 .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  align-items: flex-start;
   gap: 20px;
 }
 
@@ -80,36 +84,35 @@ section img {
   font-weight: 300;
 }
 
-.first-section {
-  background-color: #e87070;
+.first-section-button,
+.second-section-title,
+.second-section-desc {
+  color: var(--red-kaamulan-bg);
+}
+
+.first-section,
+.third-section-button {
+  background-color: var(--red-kaamulan-bg);
 }
 
 .first-section-button {
-  background-color: #faf4f4;
-  color: #e87070;
+  background-color: var(--white-kaamulan-bg);
 }
 
-.second-section-title,
-.second-section-desc {
-  color: #e87070;
+.second-section-button,
+.third-section,
+.meet-button {
+  background-color: var(--black-kaamulan-bg);
 }
 
-.second-section-button {
-  background-color: #292732;
-  color: #faf4f4;
-}
-
-.third-section {
-  background-color: #292732;
-}
-
+.second-section-button,
 .third-section-title,
-.third-section-desc {
-  color: #faf4f4;
+.third-section-desc,
+.meet-button {
+  color: var(--white-kaamulan-bg);
 }
 
 .third-section-button {
-  background-color: #e87070;
   color: #292732;
 }
 
@@ -117,14 +120,10 @@ section img {
 .last-section {
   margin-top: 300px;
   padding-top: 50px;
-  display: flex;
-  flex-direction: column;
-  background-color: #ffc753;
+  background-color: var(--yellow-kaamulan-bg);
   width: 100%;
   max-width: 1080px;
   min-height: 715px;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   gap: 20px;
   border-radius: 55px;
@@ -143,7 +142,7 @@ section img {
 .website-word {
   color: transparent;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-color: var(--black-kaamulan-bg);
 }
 
 .last-desc {
@@ -152,7 +151,5 @@ section img {
 }
 
 .meet-button {
-  background-color: #292732;
-  color: #faf4f4;
-  border: 3px solid #faf4f4;
+  border: 3px solid var(--white-kaamulan-bg);
 }
