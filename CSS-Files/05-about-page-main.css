@@ -2,24 +2,27 @@
 @import url(fonts.css);
 
 main {
-  gap: 60px;
+  gap: 3.75rem;
 }
 
-.title-section {
+.title-section, .small-desc {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+}
+
+.title-section {
+  gap: 1.25rem;
 }
 
 .title {
-  font-size: 3.4375rem;
+  font-size: var(--px55-font-main-title);
   font-weight: 900;
 }
 
 .description {
-  font-size: 20px;
+  font-size: var(--px20-font-paragraph);
   font-weight: 300;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
@@ -29,7 +32,7 @@ main {
 .profile-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2.5rem;
+  gap: 4rem;
 }
 
 .profile-container {
@@ -39,15 +42,15 @@ main {
   max-height: 80vh;
   display: flex;
   flex-direction: column;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   gap: 1.5rem;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
 }
 
 .profile-img {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
   object-fit: cover;
   object-position: top;
   width: 100%;
@@ -57,7 +60,7 @@ main {
 }
 
 .name-icon {
-  padding-inline: 20px;
+  padding-inline: 1.25rem;
   display: flex;
   justify-content: space-between;
 }
@@ -74,19 +77,15 @@ main {
 }
 
 .details {
-  padding-inline: 20px;
-  font-size: 20px;
+  padding-inline: 1.25rem;
+  font-size: var(--px20-font-paragraph);
   font-weight: 300;
   color: rgba(0, 0, 0, 0.3);
 }
 
 .small-desc {
-  margin-top: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
+  margin-top: 2.5rem;
+  gap: 3.125rem;
   font-size: 1.25rem;
   font-weight: 300;
   min-width: 60ch;
