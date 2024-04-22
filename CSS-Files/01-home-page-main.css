@@ -1,4 +1,5 @@
-/* Landing Page First Section CSS */
+@import url(root.css);
+@import url(fonts.css);
 
 main h2 {
   font-size: 2.5rem;

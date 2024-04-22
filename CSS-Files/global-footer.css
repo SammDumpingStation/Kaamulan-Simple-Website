@@ -1,3 +1,6 @@
+@import url(root.css);
+@import url(fonts.css);
+
 footer {
   margin-top: 25vw;
   width: 100vw;
@@ -5,11 +8,17 @@ footer {
   padding: 6.25rem 6.25rem 45px 6.25rem;
 }
 
+footer section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 footer ul li {
   width: fit-content; 
   margin-top: 10px;
   list-style: none;
-  border-bottom: 2px solid transparent;
+  border-bottom: 2px solid var(--white-kaamulan-bg);
   transition: border-bottom 0.3s linear;
   font-weight: 300;
   position: relative;
@@ -26,7 +35,7 @@ footer ul li::before {
   width: 0;
   height: 2px;
   background-color: var(--red-kaamulan-bg);
-  transition: width 0.15s ease-in; 
+  transition: width 0.3s ease-in; 
   z-index: -1; 
 }
 
@@ -34,21 +43,13 @@ footer ul li:hover::before {
   width: 100%;
 }
 
-
-footer p {
-  font-weight: 300;
-  line-height: 25px;
-}
-
 footer h4 {
   font-weight: 300;
   line-height: 30px;
 }
 
-footer section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+input {
+  outline: transparent;
 }
 
 .footer-title-section {
@@ -56,14 +57,14 @@ footer section {
 }
 
 .footer-title {
-  font-size: 55px;
+  font-size: var(--px55-font-main-title);
   font-weight: 900;
 }
 
 .footer-button {
-  background-color: black;
+  background-color: var(--black-kaamulan-bg);
   color: #f4f4fa;
-  border: 3px solid #ffc753;
+  border: 3px solid var(--white-kaamulan-bg);
   margin: 0;
 }
 
@@ -72,9 +73,12 @@ footer section {
   border-block: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.left-div {
+.left-div, .footer-middle-div {
   flex: 1 1 100%;
   display: flex;
+}
+
+.left-div {
   justify-content: space-evenly;
   align-items: center;
 }
@@ -88,8 +92,6 @@ footer section {
 }
 
 .footer-middle-div {
-  flex: 1 1 100%;
-  display: flex;
   justify-content: space-between;
 }
 
@@ -115,16 +117,10 @@ footer section {
   margin-top: 40px;
 }
 
-input {
-  outline: transparent;
-}
-
 .footer-input-container {
   display: flex;
-
   justify-content: space-between;
   align-items: center;
-  /* width: fit-content; */
   min-width: 55%;
   width: 75%;
   max-width: 85%;
@@ -140,10 +136,9 @@ input {
   font-size: 16px;
   font-weight: 300;
   background-color: transparent;
-  color: white;
+  color: var(--white-kaamulan-bg);
 }
 
 .arrow-button {
   width: 30px;
-  cursor: pointer;
 }

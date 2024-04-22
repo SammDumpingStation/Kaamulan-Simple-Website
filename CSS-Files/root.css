@@ -1,0 +1,18 @@
+:root {
+  --red-kaamulan-bg: #E87070;
+  --white-kaamulan-bg: #FAF4F4;
+  --black-kaamulan-bg: #292732;
+  --yellow-kaamulan-bg: #ffc753;
+  --px20-font-paragraph: 1.25rem;
+  --px35-font-2nd-title: 2.1875rem;
+  --px55-font-main-title: 3.4375rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+}
