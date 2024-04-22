@@ -37,9 +37,7 @@ main {
 
 .profile-container {
   width: 25vw;
-  min-height: 55vh;
-  height: 65vh;
-  max-height: 80vh;
+  aspect-ratio: 1/1.2;
   display: flex;
   flex-direction: column;
   border-radius: 1.25rem;

@@ -3,6 +3,7 @@
 
 main {
   gap: 5rem;
+  align-items: flex-start;
 }
 
 main img {  

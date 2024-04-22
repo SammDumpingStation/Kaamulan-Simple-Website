@@ -7,7 +7,7 @@ section {
 }
 
 main h2 {
-  font-size: 2.5rem;
+  font-size: clamp(32px, 2.5vw, 48px);;
   font-weight: 900;
 }
 
