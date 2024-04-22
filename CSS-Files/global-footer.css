@@ -25,7 +25,7 @@ footer ul li::before {
   transform: translateX(-50%);
   width: 0;
   height: 2px;
-  background-color: #E87070;
+  background-color: var(--red-kaamulan-bg);
   transition: width 0.15s ease-in; 
   z-index: -1; 
 }

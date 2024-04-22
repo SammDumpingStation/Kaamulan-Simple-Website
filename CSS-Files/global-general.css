@@ -2,6 +2,12 @@
   --red-kaamulan-bg: #E87070;
   --white-kaamulan-bg: #FAF4F4;
   --black-kaamulan-bg: #292732;
+  --yellow-kaamulan-bg: #ffc753;
+  --center-default: center;
+  --direction-flex: column;
+  --px20-font-paragraph: 1.25rem;
+  --px35-font-2nd-title: 2.1875rem;
+  --px55-font-main-title: 3.4375rem;
 }
 
 *,
@@ -13,74 +19,34 @@
   letter-spacing: 1px;
 }
 
-.scroll-watcher {
-  height: 6px;
-  position: fixed;
-  top: 0;
-  z-index: 1000;
-  background-color: #291f1f;
-  width: 100%;
-  transform: scale(0 , 1);
-  transform-origin: left;
-  animation: scroll linear;
-  animation-timeline: scroll();
-}
-
-@keyframes scroll {
-  to  {   transform: scale(1 , 1);}
-}
-
-.roboto-light {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.roboto-regular {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.roboto-medium {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.roboto-bold {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.roboto-black {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
 html {
-  font-family: "Roboto";
-  background-color: #f7f4f4;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--white-kaamulan-bg);
   scroll-behavior: smooth;
 }
 
-body {
-  padding-top: 200px;
+.flex-global {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  justify-content: center;
+  flex-direction: var(--direction-flex);
+  justify-content: var(--center-default);
+  align-items: var(--center-default);
 }
 
-main,
+body {
+  padding-top: 12.5rem;
+  position: relative;
+}
+
+/* main,
 article {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+} */
+
+button, .up-arrow, .down-arrow {
+  cursor: pointer;
 }
 
 button {
@@ -91,7 +57,6 @@ button {
   font-weight: 700;
   border: none;
   border-radius: 48px;
-  cursor: pointer;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -114,17 +79,16 @@ button:hover::before {
   transform: translateY(-100%); 
 }
 
-button:hover {
-  color: #000;
+button:hover, a {
+  color: var(--black-kaamulan-bg);
 }
 
 a {
   text-decoration: none;
-  color: #000;
 }
 
 p {
-  line-height: 2.1875rem;
+  line-height: var(--px35-font-2nd-title);
 }
 
 .up-arrow, .down-arrow {
@@ -133,7 +97,6 @@ p {
   object-fit: cover;
   object-position: center;
   position: fixed;
-  cursor: pointer;
   bottom: 20px;
 }
 
@@ -148,4 +111,21 @@ p {
 .down-arrow {
   left: 20px;
   transform: rotateX(180deg);
+}
+
+.scroll-watcher {
+  height: 6px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: var(--black-kaamulan-bg);
+  width: 100%;
+  transform: scale(0 , 1);
+  transform-origin: left;
+  animation: scroll linear;
+  animation-timeline: scroll();
+}
+
+@keyframes scroll {
+  to  {   transform: scale(1 , 1);}
 }
