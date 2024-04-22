@@ -1,3 +1,9 @@
+:root {
+  --red-kaamulan-bg: #E87070;
+  --white-kaamulan-bg: #FAF4F4;
+  --black-kaamulan-bg: #292732;
+}
+
 *,
 *::before,
 *::after {
