@@ -33,15 +33,13 @@ section img {
 }
 
 .landing-page-title {
-  font-size: 6.25rem;
+  font-size: 100px;
   text-align: center;
   font-weight: 900;
   width: min-content;
 }
 
 .landing-page-desc {
-  font-weight: 300;
-  font-size: 1.3rem;
   text-align: center;
   line-height: 1.875rem;
   width: 45ch;
@@ -80,8 +78,6 @@ section img {
 
 .p-desc {
   width: 30ch;
-  font-size: 1.375rem;
-  font-weight: 300;
 }
 
 .first-section-button,
@@ -143,11 +139,6 @@ section img {
   color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--black-kaamulan-bg);
-}
-
-.last-desc {
-  font-size: 1.375rem;
-  font-weight: 300;
 }
 
 .meet-button {

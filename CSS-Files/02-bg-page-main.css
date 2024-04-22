@@ -19,7 +19,6 @@ main section {
 }
 
 main section p {
-  font-size: 1.25rem;
   font-weight: 300;
   min-width: 65ch;
   max-width: 70ch;
@@ -34,7 +33,7 @@ main section p {
 }
 
 .bg-title {
-  font-size: 3.4375rem;
+  font-size: var(--px55-font-main-title);
   font-weight: 900;
 }
 
