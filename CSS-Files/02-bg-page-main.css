@@ -39,7 +39,7 @@ main section p {
 }
 
 .title-desc {
-  border-left: 10px solid #ffc753;
+  border-left: 10px solid var(--yellow-kaamulan-bg);
   padding-left: 10px;
   color: rgba(0, 0, 0, 0.4);
 }
