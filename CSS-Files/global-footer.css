@@ -97,6 +97,7 @@ input {
 
 .contact-footer p {
   margin-bottom: 0.4375em;
+  --px20-font-paragraph: 1rem;
 }
 
 #first-li {

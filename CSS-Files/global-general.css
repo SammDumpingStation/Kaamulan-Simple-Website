@@ -67,6 +67,7 @@ p {
   font-size: var(--px20-font-paragraph);
   line-height: var(--px35-font-2nd-title);
   font-weight: 300;
+  text-align: justify;
 }
 
 .up-arrow, .down-arrow {

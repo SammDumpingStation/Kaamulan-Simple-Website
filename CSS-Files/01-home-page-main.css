@@ -28,7 +28,7 @@ section img {
 }
 
 .landing-page {
-  gap: 1.875rem;
+  gap: 20px;
   margin-bottom: 7.5rem;
 }
 
@@ -45,7 +45,7 @@ section img {
   text-align: center;
   line-height: 1.875rem;
   width: 45ch;
-  margin-top: 50px;
+  margin-bottom: 60px;
 }
 
 .homepage-banner {

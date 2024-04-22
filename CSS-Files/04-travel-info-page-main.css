@@ -79,5 +79,9 @@ main section p {
 }
 
 .conclusion-section p {
+  text-align: justify;
   padding: 0;
+  min-width: 60ch;
+  width: 55vw;
+  max-width: 75ch;
 }
