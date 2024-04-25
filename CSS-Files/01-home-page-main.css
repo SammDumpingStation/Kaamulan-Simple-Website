@@ -1,11 +1,6 @@
 @import url(root.css);
 @import url(fonts.css);
 
-
-section {
-  border: 1px solid red;
-}
-
 main h2 {
   font-size: clamp(32px, 2.5vw, 48px);;
   font-weight: 900;
@@ -67,7 +62,7 @@ section img {
 
 .under-landing {
   width: 100vw;
-  height: min(100vh, 50vh);
+  height: 100vh;
   padding: 10.75rem 6.25rem;
   flex-direction: row;
 }
