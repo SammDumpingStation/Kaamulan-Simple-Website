@@ -12,10 +12,6 @@ section img {
   object-fit: cover;
 }
 
-/* .banner-img {
-  padding: 1rem;
-} */
-
 .landing-page,
 .under-landing,
 .max-size,
@@ -48,16 +44,16 @@ section img {
 }
 
 .homepage-banner {
+  min-width: 200px;
   width: 100%;
   max-width: 1000px;
 }
 
 /* Landing Page 2nd Section CSS */
 
-.background-img,
-.highlights-img,
-.travel-img,
+.part img,
 .last-section-img {
+  min-width: 200px;
   max-width: 505px;
   width: 100%;
 }
@@ -132,20 +128,25 @@ section img {
 /* Last Section css */
 .last-section {
   margin-top: 18.75rem;
-  padding-top: 3.125rem;
   background-color: var(--yellow-kaamulan-bg);
   width: 100%;
+  padding-block: clamp(6.5rem ,10vw, 10rem);
   max-width: 1080px;
-  min-height: 715px;
   text-align: center;
   gap: 1.25rem;
-  border-radius: 3.4375rem;
+  border-radius: var(--px55-font-main-title);
   position: relative;
 }
 
-.last-section-img {
+.absolute-div {
+  width: 50%;
+  max-width: 505px;
+  height: 300px;
   position: absolute;
-  top: -200px;
+  top: -200px;  
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .last-section-title {
@@ -162,5 +163,8 @@ section img {
   border: 3px solid var(--white-kaamulan-bg);
 }
 
-.last-desc {
-text-align: center;}
+.last-desc-p {
+  padding-inline: 4em;
+  max-width: 54ch;
+  text-align: center;
+}
