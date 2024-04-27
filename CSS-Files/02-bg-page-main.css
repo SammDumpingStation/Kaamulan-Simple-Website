@@ -2,12 +2,13 @@
 @import url(fonts.css);
 
 main {
+  padding-inline: 30px;
   gap: 5rem;
   align-items: flex-start;
 }
 
 main img {  
-  width: 100%;
+  width: 90%;
   margin-block: var(--px20-font-paragraph);
 }
 
@@ -21,7 +22,6 @@ main section {
 
 main section p {
   font-weight: 300;
-  min-width: 65ch;
   max-width: 70ch;
 }
 

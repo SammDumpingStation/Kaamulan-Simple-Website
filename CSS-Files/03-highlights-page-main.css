@@ -2,27 +2,26 @@
 @import url(fonts.css);
 
 article {
+  padding-inline: 30px;
   align-items: flex-start;
 }
 
-main section {
+main section, .images{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
 }
 
 main section p {
   font-size: var(--px20-font-paragraph);
   font-weight: 300;
-  min-width: 65ch;
   max-width: 70ch;
   padding-left: 3em;
 }
 
 main img {
-  margin-block: 80px;
-  width: 100%;
+  margin-block: clamp(1rem, 10vw, 5rem);
+  width: 90%;
 }
 
 main h3 {
@@ -51,4 +50,8 @@ main h3 {
   font-weight: 700;
   padding-top: 5rem;
   padding-bottom: var(--px55-font-main-title);
+}
+
+.images {
+  align-items: center;
 }
