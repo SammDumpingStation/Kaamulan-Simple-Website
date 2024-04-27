@@ -127,6 +127,10 @@ section img {
   color: #292732;
 }
 
+.third-section {
+  margin-bottom: 50px;
+}
+
 /* Last Section css */
 .last-section {
   margin-top: clamp(8rem ,20vw, 18.75rem);

@@ -17,7 +17,7 @@ article {
 }
 
 body {
-  padding-top: 12.5rem;
+  padding-top: clamp(1rem, 15vw, 12.5rem);
   position: relative;
 }
 
@@ -71,7 +71,7 @@ p {
 
 .up-arrow, .down-arrow {
   z-index: 999;
-  width: 80px;
+  width: clamp(3rem, 10vw, 5rem);
   object-fit: cover;
   object-position: center;
   position: fixed;
