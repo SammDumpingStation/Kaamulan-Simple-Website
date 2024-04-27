@@ -26,7 +26,6 @@ button, .arrow-button, .up-arrow, .down-arrow {
 }
 
 button {
-  margin-top: 40px;
   max-width: fit-content;
   padding: 0.75em 1.5em;
   font-size: var(--px20-font-paragraph);
@@ -65,7 +64,7 @@ a {
 
 p {
   font-size: var(--px20-font-paragraph);
-  line-height: var(--px35-font-2nd-title);
+  line-height: 30px;
   font-weight: 300;
   text-align: justify;
 }

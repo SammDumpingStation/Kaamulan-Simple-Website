@@ -60,13 +60,13 @@ section img {
 
 .under-landing {
   width: 100vw;
+  aspect-ratio: 16/9;
   padding-block: clamp(1rem , 10vh, 7rem);
   padding-inline: clamp(1rem , 10vw, 11rem);
 }
 
 .max-size{
   flex-direction: row;
-  border: 1px solid red;
   flex-wrap: wrap-reverse;
   max-width: 1500px;
   gap: 100px;
@@ -89,7 +89,9 @@ section img {
 }
 
 .p-desc {
-  max-width: 75ch;
+  padding-right: clamp(0.3125rem, 10vw, 8rem);
+  width: 100%;
+  margin-bottom: 40px;
 }
 
 .first-section-button,
@@ -127,14 +129,14 @@ section img {
 
 /* Last Section css */
 .last-section {
-  margin-top: 18.75rem;
+  margin-top: clamp(8rem ,20vw, 18.75rem);
   background-color: var(--yellow-kaamulan-bg);
   width: 100%;
-  padding-block: clamp(6.5rem ,10vw, 10rem);
+  padding-block: clamp(6rem ,10vw, 10rem);
   max-width: 1080px;
   text-align: center;
   gap: 1.25rem;
-  border-radius: var(--px55-font-main-title);
+  border-radius: clamp(1rem, 3.4375vw, 4.125rem);
   position: relative;
 }
 
@@ -164,6 +166,7 @@ section img {
 }
 
 .last-desc-p {
+  margin-bottom: 40px;
   padding-inline: 4em;
   max-width: 54ch;
   text-align: center;
