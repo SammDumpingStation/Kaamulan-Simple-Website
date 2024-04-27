@@ -18,6 +18,7 @@ section img {
 
 .landing-page,
 .under-landing,
+.max-size,
 .content,
 .last-section {
   display: flex;
@@ -33,7 +34,7 @@ section img {
 }
 
 .landing-page-title {
-  font-size: clamp(4.375rem, 6.25vw, 7.5rem);
+  font-size: clamp(3rem, 6.25vw, 7.5rem);
   text-align: center;
   font-weight: 900;
   width: min-content;
@@ -42,12 +43,11 @@ section img {
 .landing-page-desc {
   text-align: center;
   line-height: 1.875rem;
-  width: 45ch;
+  max-width: 45ch;
   margin-bottom: 60px;
 }
 
 .homepage-banner {
-  min-width: 300px;
   width: 100%;
   max-width: 1000px;
 }
@@ -59,27 +59,32 @@ section img {
 .travel-img,
 .last-section-img {
   max-width: 505px;
-  min-width: 300px;
+  width: 100%;
 }
 
 .under-landing {
-  flex-direction: row;
   width: 100vw;
-  gap: 100px;
-  padding: 10.75rem 6.25rem;
-  flex-wrap: wrap-reverse;
+  padding-block: clamp(1rem , 10vh, 7rem);
+  padding-inline: clamp(1rem , 10vw, 11rem);
 }
 
-.second-section {
-  flex-wrap: wrap;
+.max-size{
+  flex-direction: row;
+  border: 1px solid red;
+  flex-wrap: wrap-reverse;
+  max-width: 1500px;
+  gap: 100px;
 }
 
 .part {
   flex: 1 1 300px;
-  /* border: 1px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.middle {
+  flex-wrap: wrap;
 }
 
 .content {
@@ -88,7 +93,6 @@ section img {
 }
 
 .p-desc {
-  min-width: 30ch;
   max-width: 75ch;
 }
 
@@ -145,7 +149,7 @@ section img {
 }
 
 .last-section-title {
-  font-size: clamp(4.375rem, 6.25vw, 7.5rem);
+  font-size: clamp(3rem, 6.25vw, 7.5rem);
 }
 
 .website-word {

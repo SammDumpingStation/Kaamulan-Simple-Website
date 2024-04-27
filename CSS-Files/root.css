@@ -3,9 +3,9 @@
   --white-kaamulan-bg: #FAF4F4;
   --black-kaamulan-bg: #292732;
   --yellow-kaamulan-bg: #ffc753;
-  --px20-font-paragraph: clamp(1rem, 1.25vw, 1.5rem);
-  --px35-font-2nd-title: clamp(1.75rem, 2.1875vw, 2.625rem);
-  --px55-font-main-title: clamp(2.75rem, 3.4375vw, 4.125rem);
+  --px20-font-paragraph: clamp(0.8rem, 1.25vw, 1.5rem);
+  --px35-font-2nd-title: clamp(1.25rem, 2.1875vw, 2.625rem);
+  --px55-font-main-title: clamp(1.75rem, 3.4375vw, 4.125rem);
 }
 
 *,
