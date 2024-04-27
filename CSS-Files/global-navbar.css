@@ -10,7 +10,7 @@ header {
 nav ul {
   background-color: var(--white-kaamulan-bg);
   height: 60px;
-  width: min(50vw, 900px);
+  width: min(70vw, 900px);
   border-radius: 48px;
   box-shadow: 0 5px 5px rgba(10, 10, 10, 0.3);
   list-style-type: none;

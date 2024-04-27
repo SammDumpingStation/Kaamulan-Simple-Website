@@ -135,8 +135,9 @@ section img {
 .last-section {
   margin-top: clamp(8rem ,20vw, 18.75rem);
   background-color: var(--yellow-kaamulan-bg);
-  width: 100%;
+  width: 90%;
   padding-block: clamp(6rem ,10vw, 10rem);
+  padding-inline: 10px;
   max-width: 1080px;
   text-align: center;
   gap: 1.25rem;
