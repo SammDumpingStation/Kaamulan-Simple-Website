@@ -12,10 +12,9 @@ section img {
   object-fit: cover;
 }
 
-.blur-load {
-  background-size: cover;
-  background-position: center;
-}
+/* .banner-img {
+  padding: 1rem;
+} */
 
 .landing-page,
 .under-landing,
@@ -30,6 +29,7 @@ section img {
 .landing-page {
   gap: var(--px20-font-paragraph);
   margin-bottom: 7.5rem;
+  width: 70vw;
 }
 
 .landing-page-title {
@@ -47,8 +47,9 @@ section img {
 }
 
 .homepage-banner {
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 300px;
+  width: 100%;
+  max-width: 1000px;
 }
 
 /* Landing Page 2nd Section CSS */
@@ -58,17 +59,24 @@ section img {
 .travel-img,
 .last-section-img {
   max-width: 505px;
+  min-width: 300px;
 }
 
 .under-landing {
-  width: 100vw;
-  height: 100vh;
-  padding: 10.75rem 6.25rem;
   flex-direction: row;
+  width: 100vw;
+  gap: 100px;
+  padding: 10.75rem 6.25rem;
+  flex-wrap: wrap-reverse;
+}
+
+.second-section {
+  flex-wrap: wrap;
 }
 
 .part {
-  flex: 1 1 100%;
+  flex: 1 1 300px;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,7 +88,8 @@ section img {
 }
 
 .p-desc {
-  width: 30ch;
+  min-width: 30ch;
+  max-width: 75ch;
 }
 
 .first-section-button,
