@@ -3,6 +3,7 @@
 
 article {
   gap: 100px;
+  padding-inline: 30px;
 }
 
 main section,
@@ -20,7 +21,6 @@ main section {
 main section p {
   font-size: var(--px20-font-paragraph);
   font-weight: 300;
-  min-width: 65ch;
   max-width: 70ch;
   padding-left: 3em;
 }
@@ -52,7 +52,6 @@ main section p {
 .do-dont-title {
   font-size: var(--px55-font-main-title);
   font-weight: 700;
-  min-width: 15ch;
   max-width: 20ch;
   margin-bottom: 5rem;
 }
@@ -73,7 +72,6 @@ main section p {
 .conclusion-title {
   font-size: var(--px55-font-main-title);
   font-weight: 700;
-  min-width: 15ch;
   max-width: 20ch;
   /* margin-bottom: 0px; */
 }
@@ -81,7 +79,5 @@ main section p {
 .conclusion-section p {
   text-align: justify;
   padding: 0;
-  min-width: 60ch;
-  width: 55vw;
   max-width: 75ch;
 }
